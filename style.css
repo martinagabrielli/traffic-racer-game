@@ -37,9 +37,101 @@
           box-shadow: 0px 1px 8px 0 black;
 }
 
+#container .car .f_glass {
+  width: 60%;
+  height: 20%;
+  margin-left: 20%;
+  top: 15%;
+  border-radius: 0 0 5px 5px;
+  background-color: #484848;
+  position: absolute;
+}
+
+#container .car .b_glass {
+  width: 60%;
+  height: 20%;
+  margin-left: 20%;
+  position: absolute;
+  bottom: 15%;
+  border-radius: 5px 5px 0 0;
+  background-color: #484848;
+}
+
+#container .car .f_light_l {
+  width: 20%;
+  height: 10%;
+  margin-left: 10%;
+  position: absolute;
+  top: -6%;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #efefef;
+}
+
+#container .car .f_light_r {
+  width: 20%;
+  height: 10%;
+  margin-left: 70%;
+  position: absolute;
+  top: -6%;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #efefef;
+}
+
+#container .car .f_tyre_l {
+  width: 10%;
+  height: 20%;
+  background-color: grey;
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#container .car .f_tyre_r {
+  width: 10%;
+  height: 20%;
+  background-color: grey;
+  position: absolute;
+  top: 20%;
+  left: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#container .car .b_tyre_l {
+  width: 10%;
+  height: 20%;
+  background-color: grey;
+  position: absolute;
+  top: 70%;
+  left: -10%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#container .car .b_tyre_r {
+  width: 10%;
+  height: 20%;
+  background-color: grey;
+  position: absolute;
+  top: 70%;
+  left: 100%;
+  border-radius: 0px 5px 5px 0px;
+}
+
 #container #car {
   bottom: 8%;
   left: 60%;
   background-color: #ffdf5a;
+}
+
+#container #car_1 {
+  top: -100px;
+  left: 60%;
+  background-color: #26c5ff;
+}
+
+#container #car_2 {
+  top: -200px;
+  left: 40%;
+  background-color: #26c5ff;
 }
 /*# sourceMappingURL=style.css.map */
