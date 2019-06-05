@@ -22,4 +22,16 @@
     #line_3 {
         top: 450px;
     }
+    .car {
+        width: 40px;
+        height: 60px;
+        border-radius: 5px;
+        position: absolute;
+        box-shadow: 0px 1px 8px 0 black;
+    }
+    #car {
+        bottom: 8%;
+        left: 60%;
+        background-color: #ffdf5a;
+    }
 }
