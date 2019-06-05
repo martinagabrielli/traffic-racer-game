@@ -6,4 +6,20 @@
     left: 35%;
     margin-top: 20px;
     overflow: hidden;
+    .line {
+        width: 4%;
+        height: 150px;
+        margin-left: 48%;
+        position: absolute;
+        background-color: #ffffff;
+    }
+    #line_1 {
+        top: -150px;
+    }
+    #line-2 {
+        top: 150px;
+    }
+    #line_3 {
+        top: 450px;
+    }
 }
