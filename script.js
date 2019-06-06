@@ -47,6 +47,7 @@ $(function() {
                 move_right = requestAnimationFrame(right);
             } else if (key === 38 && move_up === false){
                 move_up = requestAnimationFrame(up);
+            }
         }
     });
 
@@ -59,6 +60,9 @@ $(function() {
             } else if (key === 39){
                 cancelAnimationFrame(move_right);
                 move_right = false;
+            } else if (key === 38){
+                cancelAnimationFrame(move_up);
+                move_up = false;
             }
         }
     });
@@ -74,6 +78,13 @@ $(function() {
         if(game_over === false && parseInt(car.css('left')) < container_width - car_width){
             car.css('left', parseInt(car.css('left')) + 5);
             move_right = requestAnimationFrame(right);
+        }
+    }
+
+    function up(){
+        if(game_over === false && parseInt(car.css('top')) > 0){
+            car.css('top', parseInt(car.css('top')) - 5);
+            move_up = requestAnimationFrame(up);
         }
     }
 
