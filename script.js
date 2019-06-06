@@ -115,6 +115,9 @@ $(function() {
 
     function car_down(car){
         var current_top = parseInt(car.css('top'));
+        if(current_top > container_height){
+            current_top = -200;
+        }
         car.css('top', current_top + speed);
     }
 
