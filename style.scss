@@ -1,6 +1,12 @@
 body {
-    #help{
-        text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #45d678;
+    font-family: sans-serif;
+  
+    #help {
+      text-align: center; 
     }
     #score_div{
         position: absolute;
@@ -28,13 +34,13 @@ body {
             background-color: #ffffff;
         }
         #line_1 {
-            top: -150px;
+            top: -500px;
         }
         #line-2 {
-            top: 150px;
+            top: 250px;
         }
         #line_3 {
-            top: 450px;
+            top: 500px;
         }
         .car {
             width: 40px;

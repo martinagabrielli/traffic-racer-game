@@ -41,15 +41,15 @@ body #container .line {
 }
 
 body #container #line_1 {
-  top: -150px;
+  top: -500px;
 }
 
 body #container #line-2 {
-  top: 150px;
+  top: 250px;
 }
 
 body #container #line_3 {
-  top: 450px;
+  top: 500px;
 }
 
 body #container .car {
